@@ -128,7 +128,9 @@ class DadosMoeda:
         Interage com o usuário para obter o valor a ser convertido e as moedas de origem e destino.
         """
         try:
-            self.valor = float(input("Qual valor deseja converter: "))
+            print("Conversor de moedas:".center(30))
+            print("=" * 30)
+            self.valor = float(input("\nQual valor deseja converter: "))
             print("Lista de moedas disponíveis:")
             for i, moeda in enumerate(self.moedas, start=1):
                 print(f"{i} - {moeda.titulo}")
