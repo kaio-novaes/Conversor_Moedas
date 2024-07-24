@@ -135,8 +135,8 @@ class DadosMoeda:
             for i, moeda in enumerate(self.moedas, start=1):
                 print(f"{i} - {moeda.titulo}")
 
-            moeda_origem = int(input("Escolha a moeda de origem pelo número correspondente: ")) - 1
-            moeda_destino = int(input("Escolha a moeda de destino pelo número correspondente: ")) - 1
+            moeda_origem = int(input("Qual a moeda de origem: (número correspondente): ")) - 1
+            moeda_destino = int(input("Qual a moeda de destino: (número correspondente): ")) - 1
 
             self.origem = self.moedas[moeda_origem]
             self.destino = self.moedas[moeda_destino]
