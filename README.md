@@ -4,25 +4,25 @@ Este script Python facilita a conversão de valores entre diferentes moedas util
 
 ### Funcionalidades:
 
-* Listagem de Moedas: Obtém e exibe uma lista de todas as moedas disponíveis para conversão a partir da API Frankfurter.
+* Listagem de Moedas: Obtém e exibe uma lista de todas as moedas disponíveis para conversão a partir da `API Frankfurter`.
 * Conversão de Moeda: Converte um valor especificado de uma moeda de origem para uma moeda de destino, utilizando a taxa de câmbio atual fornecida pela API Frankfurter.
 * Dados Históricos de Conversão: Recupera e analisa dados históricos de conversão entre duas moedas, oferecendo uma visão das taxas passadas.
 
 ### Componentes Principais:
 
-* Moeda: Representa uma moeda com seu título e código.
-* ConversaoMoeda: Armazena informações sobre uma conversão específica, incluindo valor, moeda base e taxas de câmbio.
-* HistoricoMoeda: Armazena dados históricos de conversão, incluindo o valor, base, intervalo de datas e taxas históricas.
-* DadosMoeda: Gerencia dados de moedas e conversões, interage com o usuário e armazena dados históricos.
+* `Moeda`: Representa uma moeda com seu título e código.
+* `ConversaoMoeda`: Armazena informações sobre uma conversão específica, incluindo valor, moeda base e taxas de câmbio.
+* `HistoricoMoeda`: Armazena dados históricos de conversão, incluindo o valor, base, intervalo de datas e taxas históricas.
+* `DadosMoeda`: Gerencia dados de moedas e conversões, interage com o usuário e armazena dados históricos.
 
 #### Bibliotecas:
 
-* **requests:** Para requisições HTTP,
-* **datetime:** Para manipulação de datas.
+* **`requests`:** Para requisições HTTP,
+* **`datetime`:** Para manipulação de datas.
   
 #### Versão do Python:
 
-* Python 3.12.
+* `Python 3.12`.
 
 #### Como Usar:
 
@@ -31,5 +31,5 @@ Este script Python facilita a conversão de valores entre diferentes moedas util
 
 ### Notas Adicionais:
 
-As conversões são baseadas nas taxas atuais obtidas via API Frankfurter.
+As conversões são baseadas nas taxas atuais obtidas via `API Frankfurter`.
 O histórico de conversão é analisado para fornecer uma visão das taxas passadas.
